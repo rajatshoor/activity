@@ -16,7 +16,7 @@ metadata:
   name: mariadb-deployment
   namespace: mariadb
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: mariadb
