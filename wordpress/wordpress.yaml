@@ -17,7 +17,7 @@ metadata:
   name: wordpress-deployment
   namespace: wordpress-app
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: wordpress
